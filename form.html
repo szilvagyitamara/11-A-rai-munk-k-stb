@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>11a1 HTML projekt 2026</title>
+    <style>
+        span {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Szilváagyi Tamara 2026-->
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <img src="kep3.png" alt="premo logo" title="Premo logo" width="190"></a>
+        </div>
+        <div id="banner-content">
+            <a href="index.html">
+                <h1 title="11A1 HTML projekt 2026">11A1 HTML projekt 2026</h1>
+            </a>
+                    <h2>&#171;header&#187;</h2>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <nav>
+            <h2>&#171;nav&#187;</h2>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html" title="Főoldal">Főoldal</a></li>
+                    <li><a href="#nogo" title="HTML demo">HTML demo</a>
+                        <ul>
+                            <li><a href="animation.html">CSS animáció</a>
+                            <li><a href="form.html">HTML űrlap</a>
+                            <li><a href="table.html">HTML táblázat</a></li>
+                            <li><a href="gallery.html">Képgaléria</a></li>
+                            <li><a href="media.html">Média</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    </nav>
+
+    <section>
+        <h2>&#171;section&#187;</h2>
+
+        <article>
+            <h2>&#171;HTML űrlap&#187;</h2>
+            <form action="">
+                <p><span id="kotelezo">A piros csillaggal jelölt mezőket kötelező ki kell tölteni!</span></p>
+                <fieldset>
+                    <legend>Megrendelő adatai</legend>
+                    <p>
+                        <label for="nev">Név: <input type="text" name="nev" id="nev" placeholder="Név megadása..."
+                                required></label><span>*</span>
+                        <small>Vezetéknév Keresztnév</small>
+                    </p>
+                    <p>
+                        <label for="telefon">Telefon: <input type="tel" name="telefon" id="telefon"
+                                placeholder="Telefonszám megadása..." size="17" required></label><span>*</span>
+                    </p>
+                    <p>
+                        <label for="cim">Szállítási cím: <input type="text" name="cim" id="cim"
+                                placeholder="Ide írd a szállítási címed..." required></label><span>*</span>
+                    </p>
+                    <p>
+                        <label for="email">E-mail cím: <input type="email" name="email" id="email"
+                                placeholder="Ide írd a e-mail címed..." required></label><span>*</span>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>A pizza mérete</legend>
+                    <p>
+                        <label for=""><input type="radio" name="meret" value="kicsi" checked>Kicsi</label>
+                    </p>
+                    <p>
+                        <label for=""><input type="radio" name="meret" value="kozepes" checked>Közepes</label>
+                    </p>
+                    <p>
+                        <label for=""><input type="radio" name="meret" value="nagy">Nagy</label>
+                    </p>
+                    <p>
+                        <label for=""><input type="radio" name="meret" value="extra">Extra nagy</label>
+                    </p>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Feltétek</legend>
+                    <p>
+                        <label for=""><input type="checkbox" name="feltet1" value="sonka" checked>Sonka</label>
+                    </p>
+                    <p>
+                        <label for=""><input type="checkbox" name="feltet2" value="sajt">Sajt</label>
+                    </p>
+                    <p>
+                        <label for=""><input type="checkbox" name="feltet3" value="gomba">Gomba</label>
+                    </p>
+                    <p>
+                        <label for=""><input type="checkbox" name="feltet4" value="kukorica">Kukorica</label>
+                    </p>
+                    <p>
+                        <label for=""><input type="checkbox" name="feltet5" value="gyroshus">Gyroshús</label>
+                    </p>
+                    <p>
+                        <label for=""><input type="checkbox" name="feltet6" value="ananasz">Ananász</label>
+                    </p>
+                    <p>
+                        <label for=""><input type="checkbox" name="feltet7" value="csipos">Csípős</label>
+                    </p>
+                </fieldset>
+                <p>
+                    <label for="">Mennyiség: <input type="number" name="mennyiseg"></label>
+                </p>
+                <p>
+                    <label for="">Kért kiszállítási idő: <input type="date" name="kiszallitas"></label><span>*</span>
+                </p>
+                <p>
+                    <label for="">Egyéb kívánság <br> <textarea name="egyeb" id="egyeb"></textarea></label>
+                </p>
+                <button type="reset">Alap helyzet</button>
+                <button type="submit">Elküldés</button>
+            </form>
+            
+
+        </article>
+    </section>
+    </div>
+    <footer>
+        <h2>&#171;footer&#187;<br>
+            &#169; 2025/26 |Szilvágyi Tamara| All Rights Reserved</h2>
+    </footer>
+
+</body>
+
+</html>
